@@ -7,11 +7,15 @@ public class Student extends Person {
     }
 
     public String getCourse() { return course; }
-    public void setMajor(String major) { this.course = course; }
+    public void setCourse(String course) { this.course = course; }
 
     @Override
     public void displayDetails() {
         System.out.println("Student: " + getId() + "  " + getName() +
                 "  " + getEmail() + "  Course: " + course);
+    }
+    @Override
+    public String toString() {
+        return "ID: " + getId() + ", Name: " + getName() + ", Email: " + getEmail() + ", Course: " + getCourse();
     }
 }

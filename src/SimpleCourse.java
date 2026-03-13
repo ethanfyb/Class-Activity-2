@@ -7,4 +7,9 @@ public class SimpleCourse extends Course {
     public String courseType() {
         return "Simple Course";
     }
+
+    @Override
+    public String toString() {
+        return "Code: " + getCode() + ", Title: " + getTitle();
+    }
 }

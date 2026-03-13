@@ -14,4 +14,8 @@ public class Lecturer extends Person {
         System.out.println("Lecturer: " + getId() + "  " + getName() +
                 "  " + getEmail() + "  Dept: " + department);
     }
+    @Override
+    public String toString() {
+        return "ID: " + getId() + ", Name: " + getName() + ", Email: " + getEmail() + ", Department: " + getDepartment();
+    }
 }
