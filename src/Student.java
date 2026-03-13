@@ -2,8 +2,8 @@ public class Student extends Person {
     private String course;
 
     public Student(String id, String name, String email, String course) {
-        super(id, name, email); // super usage
-        this.course = course;     // this usage
+        super(id, name, email); 
+        this.course = course;
     }
 
     public String getCourse() { return course; }
