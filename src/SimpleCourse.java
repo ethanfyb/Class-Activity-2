@@ -13,3 +13,4 @@ public class SimpleCourse extends Course {
         return "Code: " + getCode() + ", Title: " + getTitle();
     }
 }
+

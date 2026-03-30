@@ -19,3 +19,4 @@ public class Student extends Person {
         return "ID: " + getId() + ", Name: " + getName() + ", Email: " + getEmail() + ", Course: " + getCourse();
     }
 }
+
